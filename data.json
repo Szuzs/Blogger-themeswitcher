@@ -1,1 +1,11 @@
-'[{"title":"basic","name":"Basic style","image":"http://placehold.it/930x200?text=Basic","href":"basic.css"},{"title":"blue","name":"Blue theme","image":"http://placehold.it/930x200?text=Blue","href":"blue.css"},{"title":"pink","name":"Pink theme","image":"http://placehold.it/930x200?text=Pink","href":"pink.css"}]'
+[{
+	'title': 'simple',
+	'name': 'Egyszerű sablon',
+	'image': 'http://placehold.it/930x200?text=Egyszerű',
+	'href': 'https://cdn.rawgit.com/Szuzs/Blogger-themeswitcher/fd7ecf18/themes/theme_simple.css'
+}, {
+	'title': 'picture_window',
+	'name': 'Képablak',
+	'image': 'http://placehold.it/930x200?text=Képablak',
+	'href': 'https://cdn.rawgit.com/Szuzs/Blogger-themeswitcher/1f8d1cfa/themes/theme_picwin.css'
+}]
