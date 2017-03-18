@@ -12,7 +12,7 @@ function styleSwitch(jsonData) {
 		setStyle(storedStyleItem);
 
 		$.each(styles, function(i, elem) {
-			$("#switches").append("<input class='switch' type='radio' name='switcher' value=" + elem.title + ">" + elem.name);
+			$("div.menu").append("<input class='switch' type='radio' name='switcher' value=" + elem.title + ">" + elem.name);
 		});
 		$(".switch[value=" + storedStyleItem.title + "]").prop("checked", true);
 		$(".switch").change(function() {
@@ -23,8 +23,8 @@ function styleSwitch(jsonData) {
 			localStorage.setItem(storeName, returnFirstObject(styleItem));
 		});
 
-		$("#switches").append("<button type='button' id='reset'>Visszaállítás</button>");
-		$("#switches #reset").on('click', function() {
+		$("div.menu").append("<button type='button' id='reset'>Visszaállítás</button>");
+		$("div.menu #reset").on('click', function() {
 			localStorage.removeItem(storeName);
 			setStyle(storedStyleItem);
 			location.reload();
@@ -33,7 +33,7 @@ function styleSwitch(jsonData) {
 }
 
 function setStyle(obj) {
-	$("link[rel='stylesheet']").prop({
+	$("link#page-skin").prop({
 		href: obj.href,
 		title: obj.title,
 		disabled: false,
