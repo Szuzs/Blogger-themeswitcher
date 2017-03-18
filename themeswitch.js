@@ -14,12 +14,12 @@ function styleSwitch(jsonData) {
 
 		$("<style id='page-skin-2' type='text/css'></style>").appendTo("head");
 		$.each(styles, function(i, elem) {
-			$("div.menu").append("<input class='switch' type='radio' name='switcher' value=" + elem.title + ">" + elem.name);
+			$("div.menu").append("<input class='switch' type='radio' name='switcher' value=" + elem.titleValue + ">" + elem.name);
 		});
 		$(".switch[value=" + storedStyleItem.title + "]").prop("checked", true);
 		$(".switch").change(function() {
 			var styleItem = $.grep(styles, function(obj) {
-				return obj.title === $(".switch:checked").val();
+				return obj.titleValue === $(".switch:checked").val();
 			});
 			setStyle(styleItem[0]);
 			localStorage.setItem(storeName, returnFirstObject(styleItem));
@@ -37,8 +37,8 @@ function styleSwitch(jsonData) {
 function setStyle(obj) {
 	$.get(obj.href, function(data) {
 		$("style#page-skin-2").prop({
+			title: obj.titleValue,
 			innerHTML: data,
-			title: obj.title,
 			disabled: false,
 		});
 	});

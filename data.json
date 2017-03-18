@@ -1,30 +1,30 @@
 [{
-	"title":"simple",
+	"titleValue":"simple",
 	"name":"Egyszerű sablon",
 	"image":"http://placehold.it/930x200?text=Egyszerű",
 	"href":"https://cdn.rawgit.com/Szuzs/Blogger-themeswitcher/273f55ed/themes/theme_simple.css"
 }, {
-	"title":"picture_window",
+	"titleValue":"picture_window",
 	"name":"Képablak",
 	"image":"http://placehold.it/930x200?text=Képablak",
 	"href":"https://cdn.rawgit.com/Szuzs/Blogger-themeswitcher/273f55ed/themes/theme_picwin.css"
 }, {
-	"title":"awesome_inc",
+	"titleValue":"awesome_inc",
 	"name":"Állati Kft.",
 	"image":"http://placehold.it/930x200?text=Állati+Kft",
 	"href":"https://cdn.rawgit.com/Szuzs/Blogger-themeswitcher/273f55ed/themes/theme_awesomeinc.css"
 }, {
-	"title":"watermark",
+	"titleValue":"watermark",
 	"name":"Vízjel",
 	"image":"http://placehold.it/930x200?text=Vízjel",
 	"href":"https://cdn.rawgit.com/Szuzs/Blogger-themeswitcher/273f55ed/themes/theme_watermark.css"
 }, {
-	"title":"ethereal",
+	"titleValue":"ethereal",
 	"name":"Légies sablon",
 	"image":"http://placehold.it/930x200?text=Légies",
 	"href":"https://cdn.rawgit.com/Szuzs/Blogger-themeswitcher/273f55ed/themes/theme_ethereal.css"
 }, {
-	"title":"travel",
+	"titleValue":"travel",
 	"name":"Utazás",
 	"image":"http://placehold.it/930x200?text=Utazás",
 	"href":"https://cdn.rawgit.com/Szuzs/Blogger-themeswitcher/273f55ed/themes/theme_travel.css"
