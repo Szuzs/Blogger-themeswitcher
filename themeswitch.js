@@ -16,7 +16,7 @@ function styleSwitch(jsonData) {
 		$.each(styles, function(i, elem) {
 			$("div.menu").append("<input class='switch' type='radio' name='switcher' value=" + elem.titleValue + ">" + elem.name);
 		});
-		$(".switch[value=" + storedStyleItem.title + "]").prop("checked", true);
+		$(".switch[value=" + storedStyleItem.titleValue + "]").prop("checked", true);
 		$(".switch").change(function() {
 			var styleItem = $.grep(styles, function(obj) {
 				return obj.titleValue === $(".switch:checked").val();
