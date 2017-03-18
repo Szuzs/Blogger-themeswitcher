@@ -37,8 +37,8 @@ function styleSwitch(jsonData) {
 function setStyle(obj) {
 	$.get(obj.href, function(data) {
 		$("style#page-skin-2").prop({
-			//title: obj.title,
 			innerHTML: data,
+			title: obj.title,
 			disabled: false,
 		});
 	});
