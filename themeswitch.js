@@ -37,14 +37,14 @@ function styleSwitch(jsonData) {
 function setStyle(obj) {
 	$.get(obj.href, function(data) {
 		$("style#page-skin-2").prop({
-			title: obj.titleValue,
+			//title: obj.titleValue,
 			innerHTML: data,
 			disabled: false,
 		});
 	});
 	$("img#Header1_headerimg").prop('src', obj.image);
 	$("#Attribution1 .widget-content").html(obj.name + ' Üzemeltető: <a href="https://www.blogger.com" target="_blank">Blogger</a>.');
-	console.log(obj.titleValue, typeof(obj.titleValue));
+	//console.log(obj.titleValue, typeof(obj.titleValue));
 }
 
 function storeItem(itemName, item) {
