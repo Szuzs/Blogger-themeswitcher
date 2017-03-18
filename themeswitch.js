@@ -38,6 +38,7 @@ function setStyle(obj) {
 	$.get(obj.href, function(data) {
 		$("style#page-skin-2").prop({
 			title: obj.titleValue,
+			console.log(obj.titleValue, typeof(obj.titleValue));
 			innerHTML: data,
 			disabled: false,
 		});
