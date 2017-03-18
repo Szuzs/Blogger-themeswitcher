@@ -34,11 +34,10 @@ function styleSwitch(jsonData) {
 }
 
 function setStyle(obj) {
-	$("link#page-skin").prop({
-		href: obj.href,
-		title: obj.title,
-		disabled: false,
-	});
+	$.get(obj.href, function(data) {
+		$("style#page-skin-1").html(data);
+		console.log(data);
+	})
 	$("img#Header1_headerimg").prop('src', obj.image);
 	$("#Attribution1 .widget-content").html(obj.name + ' Üzemeltető: <a href="https://www.blogger.com" target="_blank">Blogger</a>.')
 }
