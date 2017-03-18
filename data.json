@@ -2,30 +2,30 @@
 	"title":"simple",
 	"name":"Egyszerű sablon",
 	"image":"http://placehold.it/930x200?text=Egyszerű",
-	"href":"https://cdn.rawgit.com/Szuzs/Blogger-themeswitcher/fd7ecf18/themes/theme_simple.css"
+	"href":"https://cdn.rawgit.com/Szuzs/Blogger-themeswitcher/273f55ed/themes/theme_simple.css"
 }, {
 	"title":"picture_window",
 	"name":"Képablak",
 	"image":"http://placehold.it/930x200?text=Képablak",
-	"href":"https://cdn.rawgit.com/Szuzs/Blogger-themeswitcher/1f8d1cfa/themes/theme_picwin.css"
+	"href":"https://cdn.rawgit.com/Szuzs/Blogger-themeswitcher/273f55ed/themes/theme_picwin.css"
 }, {
 	"title":"awesome_inc",
 	"name":"Állati Kft.",
 	"image":"http://placehold.it/930x200?text=Állati+Kft",
-	"href":"https://cdn.rawgit.com/Szuzs/Blogger-themeswitcher/40b48b0e/themes/theme_awesomeinc.css"
+	"href":"https://cdn.rawgit.com/Szuzs/Blogger-themeswitcher/273f55ed/themes/theme_awesomeinc.css"
 }, {
 	"title":"watermark",
 	"name":"Vízjel",
 	"image":"http://placehold.it/930x200?text=Vízjel",
-	"href":"https://cdn.rawgit.com/Szuzs/Blogger-themeswitcher/40b48b0e/themes/theme_watermark.css"
+	"href":"https://cdn.rawgit.com/Szuzs/Blogger-themeswitcher/273f55ed/themes/theme_watermark.css"
 }, {
 	"title":"ethereal",
 	"name":"Légies sablon",
 	"image":"http://placehold.it/930x200?text=Légies",
-	"href":"https://cdn.rawgit.com/Szuzs/Blogger-themeswitcher/40b48b0e/themes/theme_ethereal.css"
+	"href":"https://cdn.rawgit.com/Szuzs/Blogger-themeswitcher/273f55ed/themes/theme_ethereal.css"
 }, {
 	"title":"travel",
 	"name":"Utazás",
 	"image":"http://placehold.it/930x200?text=Utazás",
-	"href":"https://cdn.rawgit.com/Szuzs/Blogger-themeswitcher/40b48b0e/themes/theme_travel.css"
+	"href":"https://cdn.rawgit.com/Szuzs/Blogger-themeswitcher/273f55ed/themes/theme_travel.css"
 }]
