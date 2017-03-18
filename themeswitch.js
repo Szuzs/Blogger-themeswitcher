@@ -12,7 +12,7 @@ function styleSwitch(jsonData) {
 		var storedStyleItem = $.parseJSON(storeItem(storeName, returnFirstObject(styles)));
 		setStyle(storedStyleItem);
 
-		$("<style id='page-skin-2'></style>").appendTo("head");
+		$("<style id='page-skin-2' type='text/css'></style>").appendTo("head");
 		$.each(styles, function(i, elem) {
 			$("div.menu").append("<input class='switch' type='radio' name='switcher' value=" + elem.title + ">" + elem.name);
 		});
