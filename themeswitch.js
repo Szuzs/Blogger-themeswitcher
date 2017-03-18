@@ -35,7 +35,7 @@ function styleSwitch(jsonData) {
 }
 
 function setStyle(obj) {
-	
+	jQuery.ajaxSetup({async:false});
 	$.get(obj.href, function(data) {
 		$("style#page-skin-2").prop({
 			title: obj.title,
@@ -43,6 +43,7 @@ function setStyle(obj) {
 			innerHTML: data,
 		});
 	});
+	jQuery.ajaxSetup({async:true});
 	$("img#Header1_headerimg").prop('src', obj.image);
 	$("#Attribution1 .widget-content").html(obj.name + ' Üzemeltető: <a href="https://www.blogger.com" target="_blank">Blogger</a>.')
 }
