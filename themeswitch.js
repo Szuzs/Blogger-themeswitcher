@@ -7,6 +7,7 @@ function getParameter() {
 function styleSwitch(jsonData) {
 	$.getJSON(jsonData, function(json) {
 		var styles = json;
+		console.log(styles[0]);
 		var storeName = "style";
 		var storedStyleItem = $.parseJSON(storeItem(storeName, returnFirstObject(styles)));
 		setStyle(storedStyleItem);
