@@ -1,0 +1,295 @@
+<!--
+/*
+-----------------------------------------------
+Blogger Template Style
+Name:     Travel
+Designer: Sookhee Lee
+URL:      www.plyfly.net
+----------------------------------------------- */
+
+/* Content
+----------------------------------------------- */
+body {
+font: normal normal 13px 'Trebuchet MS',Trebuchet,sans-serif;
+color: #bbbbbb;
+background: #539bcd url(//themes.googleusercontent.com/image?id=0BwVBOzw_-hbMYTM3ZTRlZTktYzE4ZC00NWU0LWEyMzctOWFlZjVkZTkzNGY4) repeat fixed top center;
+}
+html body .region-inner {
+min-width: 0;
+max-width: 100%;
+width: auto;
+}
+a:link {
+text-decoration:none;
+color: #ff9900;
+}
+a:visited {
+text-decoration:none;
+color: #b87209;
+}
+a:hover {
+text-decoration:underline;
+color: #ff9900;
+}
+.content-outer .content-cap-top {
+height: 0;
+background: transparent none repeat-x scroll top center;
+}
+.content-outer {
+margin: 0 auto;
+padding-top: 20px;
+}
+.content-inner {
+background: transparent url(https://resources.blogblog.com/blogblog/data/1kt/travel/bg_black_70.png) repeat scroll top left;
+background-position: left -0;
+background-color: transparent;
+padding: 20px;
+}
+.main-inner .date-outer {
+margin-bottom: 2em;
+}
+/* Header
+----------------------------------------------- */
+.header-inner .Header .titlewrapper,
+.header-inner .Header .descriptionwrapper {
+padding-left: 10px;
+padding-right: 10px;
+}
+.Header h1 {
+font: normal normal 60px 'Trebuchet MS',Trebuchet,sans-serif;
+color: #ffffff;
+}
+.Header h1 a {
+color: #ffffff;
+}
+.Header .description {
+font-size: 130%;
+}
+/* Tabs
+----------------------------------------------- */
+.tabs-inner {
+margin: 1em 0 0;
+padding: 0;
+}
+.tabs-inner .section {
+margin: 0;
+}
+.tabs-inner .widget ul {
+padding: 0;
+background: transparent url(https://resources.blogblog.com/blogblog/data/1kt/travel/bg_black_50.png) repeat scroll top center;
+}
+.tabs-inner .widget li {
+border: none;
+}
+.tabs-inner .widget li a {
+display: inline-block;
+padding: 1em 1.5em;
+color: #ffffff;
+font: normal bold 16px 'Trebuchet MS',Trebuchet,sans-serif;
+}
+.tabs-inner .widget li.selected a,
+.tabs-inner .widget li a:hover {
+position: relative;
+z-index: 1;
+background: transparent url(https://resources.blogblog.com/blogblog/data/1kt/travel/bg_black_50.png) repeat scroll top center;
+color: #ffffff;
+}
+/* Headings
+----------------------------------------------- */
+h2 {
+font: normal bold 14px 'Trebuchet MS',Trebuchet,sans-serif;
+color: #ffffff;
+}
+.main-inner h2.date-header {
+font: normal normal 14px 'Trebuchet MS',Trebuchet,sans-serif;
+color: #bbbbbb;
+}
+.footer-inner .widget h2,
+.sidebar .widget h2 {
+padding-bottom: .5em;
+}
+/* Main
+----------------------------------------------- */
+.main-inner {
+padding: 20px 0;
+}
+.main-inner .column-center-inner {
+padding: 10px 0;
+}
+.main-inner .column-center-inner .section {
+margin: 0 10px;
+}
+.main-inner .column-right-inner {
+margin-left: 20px;
+}
+.main-inner .fauxcolumn-right-outer .fauxcolumn-inner {
+margin-left: 20px;
+background: transparent url(https://resources.blogblog.com/blogblog/data/1kt/travel/bg_black_50.png) repeat scroll top left;
+}
+.main-inner .column-left-inner {
+margin-right: 20px;
+}
+.main-inner .fauxcolumn-left-outer .fauxcolumn-inner {
+margin-right: 20px;
+background: transparent url(https://resources.blogblog.com/blogblog/data/1kt/travel/bg_black_50.png) repeat scroll top left;
+}
+.main-inner .column-left-inner,
+.main-inner .column-right-inner {
+padding: 15px 0;
+}
+/* Posts
+----------------------------------------------- */
+h3.post-title {
+margin-top: 20px;
+}
+h3.post-title a {
+font: normal bold 20px 'Trebuchet MS',Trebuchet,sans-serif;
+color: #ffffff;
+}
+h3.post-title a:hover {
+text-decoration: underline;
+}
+.main-inner .column-center-outer {
+background: transparent none repeat scroll top left;
+_background-image: none;
+}
+.post-body {
+line-height: 1.4;
+position: relative;
+}
+.post-header {
+margin: 0 0 1em;
+line-height: 1.6;
+}
+.post-footer {
+margin: .5em 0;
+line-height: 1.6;
+}
+#blog-pager {
+font-size: 140%;
+}
+#comments {
+background: transparent url(https://resources.blogblog.com/blogblog/data/1kt/travel/bg_black_50.png) repeat scroll top center;
+padding: 15px;
+}
+#comments .comment-author {
+padding-top: 1.5em;
+}
+#comments h4,
+#comments .comment-author a,
+#comments .comment-timestamp a {
+color: #ffffff;
+}
+#comments .comment-author:first-child {
+padding-top: 0;
+border-top: none;
+}
+.avatar-image-container {
+margin: .2em 0 0;
+}
+/* Comments
+----------------------------------------------- */
+#comments a {
+color: #ffffff;
+}
+.comments .comments-content .icon.blog-author {
+background-repeat: no-repeat;
+background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEgAACxIB0t1+/AAAAAd0SU1FB9sLFwMeCjjhcOMAAAD+SURBVDjLtZSvTgNBEIe/WRRnm3U8RC1neQdsm1zSBIU9VVF1FkUguQQsD9ITmD7ECZIJSE4OZo9stoVjC/zc7ky+zH9hXwVwDpTAWWLrgS3QAe8AZgaAJI5zYAmc8r0G4AHYHQKVwII8PZrZFsBFkeRCABYiMh9BRUhnSkPTNCtVXYXURi1FpBDgArj8QU1eVXUzfnjv7yP7kwu1mYrkWlU33vs1QNu2qU8pwN0UpKoqokjWwCztrMuBhEhmh8bD5UDqur75asbcX0BGUB9/HAMB+r32hznJgXy2v0sGLBcyAJ1EK3LFcbo1s91JeLwAbwGYu7TP/3ZGfnXYPgAVNngtqatUNgAAAABJRU5ErkJggg==);
+}
+.comments .comments-content .loadmore a {
+border-top: 1px solid #ffffff;
+border-bottom: 1px solid #ffffff;
+}
+.comments .comment-thread.inline-thread {
+background: transparent;
+}
+.comments .continue {
+border-top: 2px solid #ffffff;
+}
+/* Widgets
+----------------------------------------------- */
+.sidebar .widget {
+border-bottom: 2px solid transparent;
+padding-bottom: 10px;
+margin: 10px 0;
+}
+.sidebar .widget:first-child {
+margin-top: 0;
+}
+.sidebar .widget:last-child {
+border-bottom: none;
+margin-bottom: 0;
+padding-bottom: 0;
+}
+.footer-inner .widget,
+.sidebar .widget {
+font: normal normal 13px 'Trebuchet MS',Trebuchet,sans-serif;
+color: #bbbbbb;
+}
+.sidebar .widget a:link {
+color: #bbbbbb;
+text-decoration: none;
+}
+.sidebar .widget a:visited {
+color: #b87209;
+}
+.sidebar .widget a:hover {
+color: #bbbbbb;
+text-decoration: underline;
+}
+.footer-inner .widget a:link {
+color: #ff9900;
+text-decoration: none;
+}
+.footer-inner .widget a:visited {
+color: #b87209;
+}
+.footer-inner .widget a:hover {
+color: #ff9900;
+text-decoration: underline;
+}
+.widget .zippy {
+color: #ffffff;
+}
+.footer-inner {
+background: transparent none repeat scroll top center;
+}
+/* Mobile
+----------------------------------------------- */
+body.mobile  {
+background-size: 100% auto;
+}
+body.mobile .AdSense {
+margin: 0 -10px;
+}
+.mobile .body-fauxcolumn-outer {
+background: transparent none repeat scroll top left;
+}
+.mobile .footer-inner .widget a:link {
+color: #bbbbbb;
+text-decoration: none;
+}
+.mobile .footer-inner .widget a:visited {
+color: #b87209;
+}
+.mobile-post-outer a {
+color: #ffffff;
+}
+.mobile-link-button {
+background-color: #ff9900;
+}
+.mobile-link-button a:link, .mobile-link-button a:visited {
+color: #ffffff;
+}
+.mobile-index-contents {
+color: #bbbbbb;
+}
+.mobile .tabs-inner .PageList .widget-content {
+background: transparent url(https://resources.blogblog.com/blogblog/data/1kt/travel/bg_black_50.png) repeat scroll top center;
+color: #ffffff;
+}
+.mobile .tabs-inner .PageList .widget-content .pagelist-arrow {
+border-left: 1px solid #ffffff;
+}
+
+-->

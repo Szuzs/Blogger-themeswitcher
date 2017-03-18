@@ -39,7 +39,7 @@ function setStyle(obj) {
 		title: obj.title,
 		disabled: false,
 	});
-	$("#Header-1_headerimg").prop('src', obj.image);
+	$("#Header1_headerimg").prop('src', obj.image);
 	$("#Attribution1 .widget-content").html(obj.name + ' Üzemeltető: <a href="https://www.blogger.com" target="_blank">Blogger</a>.')
 }
 
