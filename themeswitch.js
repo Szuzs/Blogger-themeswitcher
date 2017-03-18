@@ -12,6 +12,7 @@ function styleSwitch(jsonData) {
 		var storedStyleItem = $.parseJSON(storeItem(storeName, returnFirstObject(styles)));
 		setStyle(storedStyleItem);
 
+		$("<style id='page-skin-2'></style>").appendTo("head");
 		$.each(styles, function(i, elem) {
 			$("div.menu").append("<input class='switch' type='radio' name='switcher' value=" + elem.title + ">" + elem.name);
 		});
@@ -34,10 +35,14 @@ function styleSwitch(jsonData) {
 }
 
 function setStyle(obj) {
+	
 	$.get(obj.href, function(data) {
-		$("style#page-skin-1").html(data);
-		console.log(data);
-	})
+		$("style#page-skin-2").prop({
+			title: obj.title,
+			disabled: false,
+			innerHTML: data
+		})
+	});
 	$("img#Header1_headerimg").prop('src', obj.image);
 	$("#Attribution1 .widget-content").html(obj.name + ' Üzemeltető: <a href="https://www.blogger.com" target="_blank">Blogger</a>.')
 }
