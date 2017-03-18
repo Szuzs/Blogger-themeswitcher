@@ -40,8 +40,8 @@ function setStyle(obj) {
 		$("style#page-skin-2").prop({
 			title: obj.title,
 			disabled: false,
-			innerHTML: data
-		})
+			innerHTML: data,
+		});
 	});
 	$("img#Header1_headerimg").prop('src', obj.image);
 	$("#Attribution1 .widget-content").html(obj.name + ' Üzemeltető: <a href="https://www.blogger.com" target="_blank">Blogger</a>.')
